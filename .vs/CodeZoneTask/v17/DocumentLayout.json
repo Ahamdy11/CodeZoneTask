@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\Entity Framework\\CodeZoneTask\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|E:\\Entity Framework\\CodeZoneTask\\codezonetask.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|solutionrelative:codezonetask.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|e:\\entity framework\\codezonetask\\codezonetask.web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|solutionrelative:codezonetask.web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|e:\\entity framework\\codezonetask\\codezonetask.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|solutionrelative:codezonetask.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|e:\\entity framework\\codezonetask\\codezonetask.web\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|solutionrelative:codezonetask.web\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|E:\\Entity Framework\\CodeZoneTask\\codezonetask.web\\codezonetask.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|solutionrelative:codezonetask.web\\codezonetask.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|e:\\entity framework\\codezonetask\\codezonetask.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|solutionrelative:codezonetask.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CodeZoneTask.Web\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CodeZoneTask.Web\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:00:43.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "CodeZoneTask.Web\\appsettings.json",
+              "ToolTip": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\appsettings.json",
+              "RelativeToolTip": "CodeZoneTask.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T15:56:38.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Store.cs",
               "DocumentMoniker": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Models\\Store.cs",
               "RelativeDocumentMoniker": "CodeZoneTask.Web\\Models\\Store.cs",
@@ -39,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CodeZoneTask.Web.csproj",
               "DocumentMoniker": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\CodeZoneTask.Web.csproj",
               "RelativeDocumentMoniker": "CodeZoneTask.Web\\CodeZoneTask.Web.csproj",
@@ -52,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Program.cs",
               "RelativeDocumentMoniker": "CodeZoneTask.Web\\Program.cs",
               "ToolTip": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Program.cs",
               "RelativeToolTip": "CodeZoneTask.Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T14:11:04.351Z",
               "EditorCaption": ""
