@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeZoneTask.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4de38d641650541ed1ccc8e27d84d37d26e8baa0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeZoneTask.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeZoneTask.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
