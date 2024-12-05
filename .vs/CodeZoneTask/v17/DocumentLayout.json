@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Entity Framework\\CodeZoneTask\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|e:\\entity framework\\codezonetask\\codezonetask.web\\views\\store\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|solutionrelative:codezonetask.web\\views\\store\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|e:\\entity framework\\codezonetask\\codezonetask.web\\views\\store\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|solutionrelative:codezonetask.web\\views\\store\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|e:\\entity framework\\codezonetask\\codezonetask.web\\views\\store\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|solutionrelative:codezonetask.web\\views\\store\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|e:\\entity framework\\codezonetask\\codezonetask.web\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|solutionrelative:codezonetask.web\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|e:\\entity framework\\codezonetask\\codezonetask.web\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}|CodeZoneTask.Web\\CodeZoneTask.Web.csproj|solutionrelative:codezonetask.web\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Views\\Store\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CodeZoneTask.Web\\Views\\Store\\Delete.cshtml",
+              "ToolTip": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Views\\Store\\Delete.cshtml",
+              "RelativeToolTip": "CodeZoneTask.Web\\Views\\Store\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T20:53:06.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Views\\Store\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CodeZoneTask.Web\\Views\\Store\\Edit.cshtml",
+              "ToolTip": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Views\\Store\\Edit.cshtml",
+              "RelativeToolTip": "CodeZoneTask.Web\\Views\\Store\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T20:30:57.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Views\\Store\\Create.cshtml",
+              "RelativeDocumentMoniker": "CodeZoneTask.Web\\Views\\Store\\Create.cshtml",
+              "ToolTip": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Views\\Store\\Create.cshtml",
+              "RelativeToolTip": "CodeZoneTask.Web\\Views\\Store\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T20:00:33.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Views\\Store\\Index.cshtml",
+              "RelativeDocumentMoniker": "CodeZoneTask.Web\\Views\\Store\\Index.cshtml",
+              "ToolTip": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Views\\Store\\Index.cshtml",
+              "RelativeToolTip": "CodeZoneTask.Web\\Views\\Store\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvzcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T19:47:12.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "CodeZoneTask.Web\\Controllers\\StoreController.cs",
+              "ToolTip": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.Web\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "CodeZoneTask.Web\\Controllers\\StoreController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T19:46:21.859Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
