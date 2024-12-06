@@ -439,7 +439,6 @@ E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\CodeZoneTask.
 E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\CodeZoneTask.Web.AssemblyInfoInputs.cache
 E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\CodeZoneTask.Web.AssemblyInfo.cs
 E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\CodeZoneTask.Web.csproj.CoreCompileInputs.cache
-E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\CodeZoneTask.Web.MvcApplicationPartsAssemblyInfo.cs
 E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\CodeZoneTask.Web.MvcApplicationPartsAssemblyInfo.cache
 E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\CodeZoneTask.Web.RazorAssemblyInfo.cache
 E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\CodeZoneTask.Web.RazorAssemblyInfo.cs
@@ -524,3 +523,7 @@ E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\refint\CodeZo
 E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\CodeZoneTask.Web.pdb
 E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\CodeZoneTask.Web.genruntimeconfig.cache
 E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\obj\Debug\net9.0\ref\CodeZoneTask.Web.dll
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\bin\Debug\net9.0\CodeZoneTask.DataAccess.dll
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\bin\Debug\net9.0\CodeZoneTask.Entities.dll
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\bin\Debug\net9.0\CodeZoneTask.DataAccess.pdb
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Web\bin\Debug\net9.0\CodeZoneTask.Entities.pdb

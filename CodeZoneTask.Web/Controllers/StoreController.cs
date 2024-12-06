@@ -1,29 +1,31 @@
-﻿using CodeZoneTask.Web.Data;
-using CodeZoneTask.Web.Models;
+﻿
+using CodeZoneTask.DataAccess;
+using CodeZoneTask.Entities.Models;
+using CodeZoneTask.Entities.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CodeZoneTask.Web.Controllers
 {
     public class StoreController : Controller
     {
-        private readonly ApplicationDbContext _context;
-        public StoreController(ApplicationDbContext context)
+        private readonly IUnitOfWork _unitOfWork;
+        public StoreController(IUnitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
         public IActionResult Index(int page = 1)
         {
-            int pageSize = 7;  
-            var totalItems = _context.Stores.Count();  
-            var stores = _context.Stores
-                .Skip((page - 1) * pageSize)  
-                .Take(pageSize) 
+            int pageSize = 7;
+            var totalItems = _unitOfWork.Store.GetAll().Count();  
+            var stores = _unitOfWork.Store.GetAll()
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
                 .ToList();
 
             ViewBag.Page = page;
             ViewBag.TotalPages = (int)Math.Ceiling((double)totalItems / pageSize);
 
-            return View(stores);
+            return View(stores);  
         }
 
 
@@ -42,8 +44,8 @@ namespace CodeZoneTask.Web.Controllers
             //ServerSide Validation
             if (ModelState.IsValid)
             {
-                _context.Stores.Add(store);
-                _context.SaveChanges();
+                _unitOfWork.Store.Add(store);
+                _unitOfWork.Complete();
                 return RedirectToAction("Index");
             }
             return View(store);
@@ -56,7 +58,7 @@ namespace CodeZoneTask.Web.Controllers
             {
                 NotFound();
             }
-            var StoresInDb = _context.Stores.Find(id);
+            var StoresInDb = _unitOfWork.Store.GetById(id.Value);
             return View(StoresInDb);
         }
 
@@ -67,8 +69,8 @@ namespace CodeZoneTask.Web.Controllers
             //ServerSide Validation
             if (ModelState.IsValid)
             {
-                _context.Stores.Update(store);
-                _context.SaveChanges();
+               _unitOfWork.Store.Update(store);
+                _unitOfWork.Complete();
                 return RedirectToAction("Index");
             }
             return View(store);
@@ -77,26 +79,40 @@ namespace CodeZoneTask.Web.Controllers
         [HttpGet]
         public IActionResult Delete(int? id)
         {
-            if (id == null | id == 0)
+            if (id == null || id == 0)
             {
-                NotFound();
+                return NotFound(); 
             }
-            var StoresInDb = _context.Stores.Find(id);
-            return View(StoresInDb);
+
+            var store = _unitOfWork.Store.GetById(id.Value); 
+            if (store == null)
+            {
+                return NotFound(); 
+            }
+
+            return View(store); 
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteStore(int? id)
+        public IActionResult DeleteStore(Store store)
         {
-            var StoreInDb= _context.Stores.Find(id);
-            if (StoreInDb == null)
+            if (store == null || store.Id == 0)
             {
-                NotFound();
+                return NotFound(); 
             }
-            _context.Stores.Remove(StoreInDb);
-            _context.SaveChanges();
-            return RedirectToAction("Index");
+
+            var storeInDb = _unitOfWork.Store.GetById(store.Id); 
+            if (storeInDb == null)
+            {
+                return NotFound();
+            }
+
+            _unitOfWork.Store.Remove(storeInDb); 
+            _unitOfWork.Complete(); 
+            return RedirectToAction("Index"); 
         }
     }
+
 }
+

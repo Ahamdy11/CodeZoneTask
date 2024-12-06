@@ -1658,6 +1658,31 @@
             "rid": "win"
           }
         }
+      },
+      "CodeZoneTask.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CodeZoneTask.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CodeZoneTask.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeZoneTask.DataAccess.dll": {}
+        }
+      },
+      "CodeZoneTask.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CodeZoneTask.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeZoneTask.Entities.dll": {}
+        }
       }
     }
   },
@@ -4820,10 +4845,21 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CodeZoneTask.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../CodeZoneTask.DataAccess/CodeZoneTask.DataAccess.csproj",
+      "msbuildProject": "../CodeZoneTask.DataAccess/CodeZoneTask.DataAccess.csproj"
+    },
+    "CodeZoneTask.Entities/1.0.0": {
+      "type": "project",
+      "path": "../CodeZoneTask.Entities/CodeZoneTask.Entities.csproj",
+      "msbuildProject": "../CodeZoneTask.Entities/CodeZoneTask.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "CodeZoneTask.DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 9.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
@@ -4861,7 +4897,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.DataAccess\\CodeZoneTask.DataAccess.csproj": {
+              "projectPath": "E:\\Entity Framework\\CodeZoneTask\\CodeZoneTask.DataAccess\\CodeZoneTask.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,12 @@
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\bin\Debug\net9.0\CodeZoneTask.Entities.deps.json
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\bin\Debug\net9.0\CodeZoneTask.Entities.dll
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\bin\Debug\net9.0\CodeZoneTask.Entities.pdb
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\obj\Debug\net9.0\CodeZoneTask.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\obj\Debug\net9.0\CodeZoneTask.Entities.AssemblyInfoInputs.cache
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\obj\Debug\net9.0\CodeZoneTask.Entities.AssemblyInfo.cs
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\obj\Debug\net9.0\CodeZoneTask.Entities.csproj.CoreCompileInputs.cache
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\obj\Debug\net9.0\CodeZoneTask.Entities.sourcelink.json
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\obj\Debug\net9.0\CodeZoneTask.Entities.dll
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\obj\Debug\net9.0\refint\CodeZoneTask.Entities.dll
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\obj\Debug\net9.0\CodeZoneTask.Entities.pdb
+E:\Entity Framework\CodeZoneTask\CodeZoneTask.Entities\obj\Debug\net9.0\ref\CodeZoneTask.Entities.dll

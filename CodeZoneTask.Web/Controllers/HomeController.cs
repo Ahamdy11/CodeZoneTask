@@ -1,4 +1,4 @@
-using CodeZoneTask.Web.Models;
+using CodeZoneTask.Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

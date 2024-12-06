@@ -16,4 +16,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CodeZoneTask.DataAccess\CodeZoneTask.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

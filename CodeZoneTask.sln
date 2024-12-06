@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeZoneTask.Web", "CodeZoneTask.Web\CodeZoneTask.Web.csproj", "{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeZoneTask.DataAccess", "CodeZoneTask.DataAccess\CodeZoneTask.DataAccess.csproj", "{D234EC45-213F-417B-9BFD-C940E5FFCE92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeZoneTask.Entities", "CodeZoneTask.Entities\CodeZoneTask.Entities.csproj", "{A6628530-8876-4E1E-B694-ABEDB7916B75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25E5D565-7A28-4FB3-AF96-D7C86922C8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D234EC45-213F-417B-9BFD-C940E5FFCE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D234EC45-213F-417B-9BFD-C940E5FFCE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D234EC45-213F-417B-9BFD-C940E5FFCE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D234EC45-213F-417B-9BFD-C940E5FFCE92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6628530-8876-4E1E-B694-ABEDB7916B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6628530-8876-4E1E-B694-ABEDB7916B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6628530-8876-4E1E-B694-ABEDB7916B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6628530-8876-4E1E-B694-ABEDB7916B75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
