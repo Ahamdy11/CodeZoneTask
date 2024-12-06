@@ -1,4 +1,4 @@
-using CodeZoneTask.DataAccess;
+﻿using CodeZoneTask.DataAccess;
 using CodeZoneTask.DataAccess.Implementation;
 using CodeZoneTask.Entities.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -31,6 +31,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area=Admin}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

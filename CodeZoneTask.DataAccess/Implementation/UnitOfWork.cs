@@ -11,10 +11,12 @@ namespace CodeZoneTask.DataAccess.Implementation
     {
         private readonly ApplicationDbContext _context;
         public IStoreRepository Store { get; private set; }
+        public IItemRepository Item { get; private set; }
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
             Store = new StoreRepository(context);
+            Item = new ItemRepository(context);
         }
         
 

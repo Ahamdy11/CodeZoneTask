@@ -1,0 +1,24 @@
+﻿@model Item
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 100vh; flex-direction: column;">
+    <form asp-action="DeleteItem" method="post" style="max-width: 600px; width: 100%;">
+        <!-- Hidden input for the id -->
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label for="Name" class="form-label" style="font-size: 1.2rem;">Item Name</label>
+            <input asp-for="Name" disabled class="form-control form-control-lg" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 d-flex justify-content-between">
+            <button type="submit" class="btn btn-danger btn-lg" style="width: 48%;">Confirm to Delete</button>
+            <a asp-action="Index" asp-controller="Item" class="btn btn-warning btn-lg" style="width: 48%;">Back To Index</a>
+        </div>
+    </form>
+</div>
+
+<!-- ClientSide Validation -->
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
